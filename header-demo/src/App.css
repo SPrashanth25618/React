@@ -50,7 +50,8 @@ body{
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
     width: 0;
-    background-color: white;
+    background-color: rgb(192, 192, 192);
+    color: black;
 }
 
 .search-bar::placeholder {
