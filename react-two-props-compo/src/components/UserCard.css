@@ -1,0 +1,23 @@
+.Container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 1.5rem;
+    margin: 1rem;
+    width: fit-content;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#user-img {
+    width: 100px;
+    height: 100px;
+    object-fit: top;
+    object-position: center top;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    display: block;
+}
